@@ -1,6 +1,6 @@
-package src.Commission;
+package src.commission;
 
-public class RobustBVA_Commission {
+public class BVA_Commission {
     static double minLock = 1.00;
     static double maxLock = 80.0;
     static double nomLock = 40.5;
@@ -11,9 +11,9 @@ public class RobustBVA_Commission {
     static double maxBarrel = 100;
     static double nomBarrel = 50.5;
 
-    static double[] lockValues = new double[]{minLock - 1, minLock, minLock + 1, nomLock, maxLock - 1, maxLock, maxLock + 1};
-    static double[] stockValues = new double[]{minStock - 1, minStock, minStock + 1, maxStock - 1, maxStock, maxStock + 1};
-    static double[] barrelValues = new double[]{minBarrel - 1, minBarrel, minBarrel + 1, maxBarrel - 1, maxBarrel, maxBarrel + 1};
+    static double[] lockValues = new double[]{ minLock, minLock + 1, nomLock, maxLock - 1, maxLock};
+    static double[] stockValues = new double[]{ minStock, minStock + 1, maxStock - 1, maxStock};
+    static double[] barrelValues = new double[]{ minBarrel, minBarrel + 1, maxBarrel - 1, maxBarrel};
 
     public static void generateTestcases() {
         int count = 1;

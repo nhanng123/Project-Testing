@@ -1,4 +1,4 @@
-package src.Commission;
+package src.commission;
 
 public class Commission {
     static double lockPrice = 50.0;
