@@ -3,7 +3,7 @@ package src.triangle;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RobertBVA_Triangle {
+public class RobustBVA_Triangle {
     static int min = 5;
     static int max = 205;
     static int nom = 105;
