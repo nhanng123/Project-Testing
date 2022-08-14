@@ -17,12 +17,11 @@ public class BVA_Triangle {
         edges.put('A', nom);
         edges.put('B', nom);
         edges.put('C', nom);
-        System.out.println("Test case\tA\tB\tC\tExpected output");
+        System.out.println("Test case\t\tA\t\tB\t\tC\t\tExpected output");
         int count = 1;
         boolean isTripNomChecked = false;
         for(char c : keys){
             for(int j : values){
-
                 edges.put(c,j);
                 if(edges.get('A') == edges.get('B') && edges.get('B') == edges.get('C')){
                     if (!isTripNomChecked){
@@ -31,9 +30,9 @@ public class BVA_Triangle {
                         continue;
                     }
                 }
-                System.out.print("\t\t" + count++ + "\t");
+                System.out.print("\t\t" + count++ + "\t\t");
                 String result = Triangle.checkTriangle(edges.get('A'), edges.get('B'), edges.get('C'));
-                System.out.print(edges.get('A') + "\t" + edges.get('B') + "\t" + edges.get('C') + "\t");
+                System.out.print(edges.get('A') + "\t\t" + edges.get('B') + "\t\t" + edges.get('C') + "\t\t");
                 edges.put(c, nom);
                 System.out.println(result);
             }
