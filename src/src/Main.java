@@ -12,14 +12,14 @@ public class Main {
         System.out.println("------BOUNDARY VALUE ANALYSIS:");
         BVA_Triangle.generateTestcases();
         System.out.println("==========================================================");
-        System.out.println("------BOUNDARY VALUE ANALYSIS:");
+        System.out.println("------ROBUSTNESS BOUNDARY VALUE ANALYSIS:");
         RobustBVA_Triangle.generateTestcases();
         System.out.println("------------------------------////------------------------------------");
         System.out.println("###########COMMISSIONS PROBLEM###########");
         System.out.println("------BOUNDARY VALUE ANALYSIS:");
         BVA_Commission.generateTestcases();
         System.out.println("==========================================================");
-        System.out.println("------BOUNDARY VALUE ANALYSIS:");
+        System.out.println("------ROBUSTNESS BOUNDARY VALUE ANALYSIS:");
         RobustBVA_Commission.generateTestcases();
         System.out.println("------------------------------////------------------------------------");
     }

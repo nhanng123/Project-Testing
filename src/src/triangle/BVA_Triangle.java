@@ -6,7 +6,7 @@ import java.util.Map;
 public class BVA_Triangle {
     static int min = 5;
     static int max = 205;
-    static int nom = 105;
+    static int nom = 100;
     static int minPlus = min + 1;
     static int maxMinus = max - 1;
 
